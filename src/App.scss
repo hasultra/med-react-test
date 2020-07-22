@@ -1,0 +1,253 @@
+.app {
+
+}
+
+
+.med-header {
+    background-image: url("./images/medecin2/header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 30px;
+}
+.app-wrapper{
+   // position: relative;
+}
+
+.med-profile{
+display: grid;
+grid-template-columns: 50% 50%;
+margin: 30px 40px 30px 40px;
+
+}
+.med-presentation{
+    background-image: url("./images/medecin2/med-presentation.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 130px;
+    margin-left: 50px;
+}
+
+.med-image{
+    background-image: url("./images/medecin2/med-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 130px;
+    margin-right: 50px;
+}
+
+.med-video{
+    background-image: url("./images/medecin2/med-video.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 130px;
+    margin-left: 2px;
+}
+
+.med-featured-services{
+    background-image: url("./images/medecin2/med-featured-services.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 130px;
+    margin-left: 20px;
+}
+.med-appointment{
+    position: relative;
+}
+.med-appointment-wrapper{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.med-appointment-top{
+    background-image: url("./images/medecin2/med-appointment-top.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 130px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.med-appointment-left{
+    background-image: url("./images/medecin2/med-appointment-left.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 130px;
+    margin-left: 10px;
+}
+.med-appointment-right{
+    background-image: url("./images/medecin2/med-appointment-right.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 130px;
+}
+.med-appointment-content{
+    background-image: url("./images/medecin2/med-appointment-content.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 72%;
+    height: 130px;
+    top: 90px;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.med-galerie{
+    background-image: url("./images/medecin2/med-galerie.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+    margin-bottom: -10px;
+}
+.med-question{
+    background-image: url("./images/medecin2/med-question.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+}
+
+.med-articles{
+    background-image: url("./images/medecin2/med-article.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+}
+.med-contact{
+    background-image: url("./images/medecin2/med-contact.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px; 
+}
+.app-footer{
+    background-image: url("./images/medecin2/footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+.copyright{
+ background-image: url(data:image/png;base64,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);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 25px;
+    background-position: center;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+ 
+@media (min-width: 600px) {
+    .med-header {
+        height: 50px;
+    }
+    .med-presentation{
+        height:200px ;
+    }
+    .med-image{
+        height:200px ;
+    }
+    .med-video{
+        height: 200px;
+    }
+    .med-featured-services{
+        height: 200px;
+    }
+    .med-appointment-top{
+        height: 200px;
+    }
+    .med-appointment-left{
+        height: 200px;
+        margin-left: 15px;
+    }
+    .med-appointment-right{
+        height: 200px;
+    }
+    .med-appointment-content{
+        top:130px;
+        height: 200px;
+    }
+    .med-galerie{
+        height: 400px;
+        margin-bottom: -15px;
+    }
+    .med-question{
+        height: 400px; 
+    }
+    .med-articles{
+        height: 400px;
+    }
+    .med-contact{
+        height: 300px;
+    }
+    .app-footer{
+        height: 50px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .med-header {
+        height: 70px;
+    }
+    .med-presentation{
+        height:350px ;
+    }
+    .med-image{
+        height:350px ;
+    }
+    .med-profile{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .med-video{
+        height: 350px;
+    }
+    .med-featured-services{
+        height: 400px;
+    }
+    .med-appointment-top{
+        height: 400px;
+    }
+    .med-appointment-right{
+        height: 400px;
+    }
+    .med-appointment-left{
+        height: 400px;
+        margin-left: 20px;
+    }
+    .med-appointment-content{
+        top:270px;
+        height: 400px;
+    }
+    .med-galerie{
+        height: 600px;
+        margin-bottom: -25px;
+    }
+    .med-question{
+        height: 600px; 
+    }
+    .med-articles{
+        height: 600px;
+    }
+    .med-contact{
+        height: 400px;
+        margin-left: 2px;
+    }
+    .app-footer{
+        height: 60px;
+    }
+  }
