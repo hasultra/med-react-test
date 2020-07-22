@@ -10,7 +10,7 @@ import rootReducer from './reducers';
 
 import rootSaga from './actions/saga';
 
-const initialState = {counter:1,customAsyncData:""};
+const initialState = {customAsyncData:""};
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(rootReducer,initialState,applyMiddleware(sagaMiddleware));
 

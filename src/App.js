@@ -25,27 +25,18 @@ function App() {
               <li>
                 <Link to="/MedComponent">La premiere interface</Link>
               </li>
-              {/* <li>
-                            <Link to="/users">Users</Link>
-                        </li> */}
             </ul>
           </nav>
 
           <Switch>
-            <Route exact  path="/">
-              
+            <Route exact path="/">
+
               <ActionComponent />
               <OutputComponent />
             </Route>
             <Route path="/MedComponent">
               <MedComponent />
             </Route>
-            {/* <Route path="/users">
-                        <Users />
-                    </Route>
-                    <Route path="/">
-                        <Home />
-                    </Route> */}
           </Switch>
         </div> </div></Router>
 

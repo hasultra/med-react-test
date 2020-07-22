@@ -1,14 +1,3 @@
-const increment =(  )=>{
-    return {
-        type:'INCREMENT'
-    }
-}
-
-const decrement =(  )=>{
-    return {
-        type:'DECREMENT'
-    }
-}
 
 const getAsyncData =(  )=>{
     return {
@@ -16,4 +5,4 @@ const getAsyncData =(  )=>{
     }
 }
 
-export default {increment,decrement,getAsyncData}
+export default {getAsyncData}
