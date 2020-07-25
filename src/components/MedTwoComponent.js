@@ -1,7 +1,7 @@
 import React from 'react';
- 
+import '../style/Medecin2.scss';
 
-const MedComponent = () => {
+const MedTwoComponent = () => {
    
     return <div>
        <div className="med-header" >
@@ -58,4 +58,4 @@ const MedComponent = () => {
     </div>
 }
 
-export default MedComponent;
+export default MedTwoComponent;

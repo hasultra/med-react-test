@@ -1,0 +1,351 @@
+// a {
+//     color: black;
+//     text-decoration: none;
+// }
+// a:active {
+//     color: #08B7B5;
+//     text-decoration: none;
+//   }
+// a:link {
+//     color: #08B7B5;
+//     text-decoration: none;
+//   }
+
+// .med-four-header{
+// display: flex;
+// background-color: white;
+// color: #08B7B5;
+// font-family: Arial;
+// font-size: 16px;
+// font-weight: 700;
+// letter-spacing: 0.5px;
+// line-height: 18px;
+// justify-content: space-between;
+// ul {
+//      display: flex;
+//      li a {
+//         padding: 0 .6em;
+//     }
+//   }
+
+// }
+// .logo{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: #08B7B5;
+//     font-family: Arial;
+//     font-size: 24px;
+//     font-weight: 700;
+//     line-height: 27px;
+// }
+
+ .med-four-header{
+    background-image: url("../images/medecin4/header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+ }
+
+ .med-four-profile{
+    background-image: url("../images/medecin4/med-four-profile-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    height: 190px;
+    padding-top: 30px;
+ }
+
+ .med-four-presentation{
+    width: 60%;
+    padding-left: 40px;
+    padding-top: 45px;
+}
+.med-four-presentation-title{
+background-image: url("../images/medecin4/med-four-presentation-title.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 25px;
+    width: 65%;
+    margin-bottom: 10px;
+}
+.med-four-presentation-p{
+    background-image: url("../images/medecin4/med-four-presentation-p.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 55px;
+    width: 78%;
+    margin-bottom: 10px;
+}
+.med-four-presentation-btn{
+    background-image: url("../images/medecin4/med-four-presentation-btn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 18px;
+    width: 35%;
+}
+.med-four-image{
+    background-image: url("../images/medecin4/med-four-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 190px;
+    width:40%; 
+}
+
+.med-four-calendar{
+    display: flex;  
+    background-color: white;
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.med-four-calendar-left-title{
+    background-image: url("../images/medecin4/med-four-calendar-left-title.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 10px;
+  margin-bottom: 30px;
+}
+.med-four-calendar-left-time{
+    background-image: url("../images/medecin4/med-four-calendar-left-time.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 110px;
+}
+.med-four-calendar-right-btn{
+    background-image: url("../images/medecin4/med-four-calendar-right-btn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    width: 50%;
+    height: 30px;
+}
+.med-four-calendar-right-table{
+    background-image: url("../images/medecin4/med-four-calendar-right-table.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 110px;
+  
+}
+.med-four-calendar-left{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.med-four-calendar-right{
+    padding-top: 24px;
+    width: 50%;
+ 
+}
+
+.med-four-services{
+    background-image: url("../images/medecin4/med-four-services.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:200px;
+}
+
+.med-four-articles{
+    background-image: url("../images/medecin4/med-four-articles.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:200px;
+}
+.med-four-questions{
+    background-image: url("../images/medecin4/med-four-questions.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:200px;
+}
+
+.app-footer{
+    background-image: url("../images/medecin4/footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+ 
+
+@media (min-width: 600px) {
+    .med-four-header{
+        height: 50px;
+     }
+    
+     .med-four-profile{
+        height: 300px;
+        padding-top: 50px;
+     }
+    
+     .med-four-presentation{
+        width: 60%;
+        padding-left: 60px;
+        padding-top: 65px;
+    }
+    .med-four-presentation-title{
+
+        height: 40px;
+    }
+    .med-four-presentation-p{
+     
+        height: 80px;
+    }
+    .med-four-presentation-btn{
+     
+        height: 30px;
+    }
+    .med-four-image{
+       
+        height: 300px;
+    }
+
+
+    
+.med-four-calendar{
+    
+    height: 300px;
+}
+
+.med-four-calendar-left-title{
+  
+    height: 15px;
+  
+}
+.med-four-calendar-left-time{
+    
+    height: 175px;
+}
+.med-four-calendar-right-btn{
+    
+    height: 50px;
+}
+.med-four-calendar-right-table{
+ 
+    height:205px;
+  
+}
+.med-four-calendar-left{
+ 
+}
+.med-four-calendar-right{
+ 
+ 
+}
+
+.med-four-services{
+ 
+    height:400px;
+}
+
+.med-four-articles{
+  
+    height:400px;
+}
+.med-four-questions{
+    
+    height:400px;
+}
+
+.app-footer{
+    
+    height: 50px;
+    
+}
+ 
+  
+  }
+  @media (min-width: 1200px) {
+    .med-four-header{
+        height: 70px;
+     }
+    
+     .med-four-profile{
+        height: 500px;
+        padding-top: 70px;
+     }
+    
+     .med-four-presentation{
+        width: 60%;
+        padding-left: 80px;
+    }
+    .med-four-presentation-title{
+
+        height: 90px;
+    }
+    .med-four-presentation-p{
+     
+        height: 150px;
+    }
+    .med-four-presentation-btn{
+     
+        height: 60px;
+    }
+    .med-four-image{
+       
+        height: 500px;
+    }
+
+
+    
+    .med-four-calendar{
+    
+        height: 400px;
+    }
+    
+    .med-four-calendar-left-title{
+      
+        height: 20px;
+      
+    }
+    .med-four-calendar-left-time{
+        
+        height: 250px;
+    }
+    .med-four-calendar-right-btn{
+        
+        height: 70px;
+    }
+    .med-four-calendar-right-table{
+        height: 600px;
+        background-size: 100% 40%;
+    }
+    .med-four-calendar-left{
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 30px;
+     
+    }
+    .med-four-calendar-right{
+        padding-top: 55px;
+     
+    }
+
+    
+.med-four-services{
+ 
+    height:650px;
+}
+
+.med-four-articles{
+  
+    height:650px;
+}
+.med-four-questions{
+    
+    height:650px;
+}
+
+.app-footer{
+    
+    height: 70px;
+    
+}
+  
+  }

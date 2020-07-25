@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.scss';
+import './style/App.scss';
 import ActionComponent from './components/ActionComponent';
 import OutputComponent from './components/OutputComponent';
 import {
@@ -8,8 +8,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import MedComponent from './components/MedComponent';
-
+import MedTwoComponent from './components/MedTwoComponent';
+import MedFourComponent from './components/MedFourComponent';
 
 function App() {
   return (
@@ -17,25 +17,36 @@ function App() {
     <Router>
       <div className="app">
         <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/MedComponent">La premiere interface</Link>
-              </li>
-            </ul>
-          </nav>
+
 
           <Switch>
             <Route exact path="/">
-
+              <nav style={{
+                "display": "flex",
+                "align-items": "left",
+                "justify-content": "left",
+                "font-size": "30px", "fontWeight": "bold"
+              }}>
+                <ul>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/MedTwoComponent">La premiere interface</Link>
+                  </li>
+                  <li>
+                    <Link to="/MedFourComponent">La deuxieme interface</Link>
+                  </li>
+                </ul>
+              </nav>
               <ActionComponent />
               <OutputComponent />
             </Route>
-            <Route path="/MedComponent">
-              <MedComponent />
+            <Route path="/MedTwoComponent">
+              <MedTwoComponent />
+            </Route>
+            <Route path="/MedFourComponent">
+              <MedFourComponent />
             </Route>
           </Switch>
         </div> </div></Router>
